@@ -1,0 +1,152 @@
+/* GENERAL */
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.vcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.hide-me{
+    display: none;
+}
+
+/* SEPARATOR */
+.section_separator{
+    position: relative;
+    height: 100px;
+}
+
+.svg_slant{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+.section_separator_hr{
+    width: 100%;
+    height: 10px;
+    /*background-color: #216225;*/
+    background-image: linear-gradient(to right, #38B040,#2D8933,#216225,#2D8933, #38B040);
+}
+
+/* LINKS */
+/* unvisited link */
+.nav_link:link {
+    color: #212529;
+}
+
+/* visited link */
+.nav_link:visited {
+    color: #212529;
+}
+
+/* mouse over link */
+.nav_link:hover {
+    color: #216225;
+}
+
+/* selected link */
+.nav_link:active {
+    color: #212529;
+}
+
+/* NAVIGATION */
+.navigation_menu{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+.navigation_menu_container{
+    max-width: 1920px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.nav_menu_left{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.nav_menu_right{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+.logo_menu_container{
+    margin: 0 auto;
+    width: 100px;
+    border-bottom: 5px solid #38B040;
+}
+
+.logo_menu{
+    font-size: 2.5em;
+}
+
+.navigation_menu_open{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 5;
+    top: 0;
+}
+
+.nav_open_menu{
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.nav_open_menu_link{
+    font-size: 3em;
+}
+
+.nav_menu_btn{
+
+}
+
+/* SECTION */
+.page_section{
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.section_banner{
+    background-color: white;
+}
+
+.section_about{
+    background-color: #0E0E0E;
+}
+
+.section_skills{
+    background-color: white;
+}
+
+.section_projects{
+    background-color: #0E0E0E;
+}
+
+.section_work{
+    background-color: #38B040;
+}
+
+.section_contact{
+    background-color: #282828;
+}
+
+.section_footer{
+    height: 100px !important;
+    background-color: #1f1f1f;
+}
