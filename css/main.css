@@ -131,17 +131,89 @@ body{
     background-color: white;
 }
 
+/*
+ABOUT
+*/
+
 .section_about{
     background-color: #0E0E0E;
+    height: auto;
+    text-align: center;
 }
 
+
+
+/*
+SKILLS
+*/
 .section_skills{
     background-color: white;
+    height: auto;
 }
 
+.skills_row{
+
+}
+
+.light_title{
+    color: #212529;
+}
+
+.light_hr{
+    background-color: #38B040;
+    height: 5px;
+    width: 40%;
+    margin-bottom: 5%;
+}
+
+.light_desc_text{
+    color: #212529;
+}
+
+.skills_box{
+    background-color: grey;
+    width: 235px;
+    height: 275px;
+    margin-bottom: 5%;
+}
+
+/*
+PROJECTS
+*/
 .section_projects{
     background-color: #0E0E0E;
+    height: auto;
 }
+
+.projects_row{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.project_box{
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20%;
+}
+
+.dark_title{
+    text-align: center;
+    color: white;
+}
+
+.dark_hr{
+    background-color: #38B040;
+    height: 5px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.dark_desc_text{
+    color: grey;
+}
+
 
 
 /*
