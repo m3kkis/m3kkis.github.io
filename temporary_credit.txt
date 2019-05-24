@@ -1,0 +1,25 @@
+*** TEMPORARY WILL ADD THEM ASAP ***
+
+-- CIRCUIT IMAGE BY PIXABAY
+✓ Free to use.
+✓ No attribution required.
+https://www.pexels.com/photo/technology-computer-lines-board-50711/    
+
+
+- LINKED IN, FACEBOOK ICON
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+- GITHUB ICON
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+- 4 ICONS IN SKILL SECTION
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" 		    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 		    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+
+
+
+- PATTERN BACKGROUND
+https://www.toptal.com/designers/subtlepatterns/faq/
+
+If I use Toptal Subtle Patterns for my personal website or commercial project, do I need to credit it?
+Yes. Please credit Toptal Subtle Patterns using a comment in your HTML or CSS code. CSS Example:
+/* Background pattern from Toptal Subtle Patterns */
