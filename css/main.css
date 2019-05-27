@@ -17,6 +17,18 @@ body{
     display: none;
 }
 
+::placeholder { 
+    color: rgb(87, 87, 87); 
+} 
+  
+:-ms-input-placeholder { 
+    color: rgb(87, 87, 87); 
+} 
+  
+::-ms-input-placeholder {
+    color: rgb(87, 87, 87); 
+} 
+
 /* SEPARATOR */
 .section_separator{
     position: relative;
@@ -364,18 +376,41 @@ CONTACT
 
 .message_txtbox{
     width: 100%;
-    background-color: grey;
+    background-color: rgb(170, 170, 170);
     border: none;
+    color: #0E0E0E;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
 }
 
 .message_textarea{
     width: 100%;
     height: 140px;
-    background-color: grey;
+    background-color: rgb(170, 170, 170);
     resize: none;
     border: none;
+    color: #0E0E0E;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
 }
 
+.message_btn{
+    width: 100px;
+    height: 40px;
+    border: 6px solid green;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.message_btn:hover{
+    background-color: green;
+    transition: 0.3s;
+}
+
+.message_btn_text{
+    font-size: 1.5em;
+    text-align: center;
+}
 
 
 
