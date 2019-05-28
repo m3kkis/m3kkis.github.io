@@ -142,9 +142,18 @@ body{
     padding-bottom: 5%;
 }
 
+/*
+BANNER
+*/
+
 .section_banner{
 
 }
+
+.banner_logo{
+    width: 45vh;
+}
+
 
 /*
 ABOUT
