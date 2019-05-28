@@ -17,20 +17,15 @@
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="css/hamburgers.min.css">
+		<link rel="stylesheet" type="text/css" href="css/aos.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 
 		<!-- JS -->
 		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/aos.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
-
-		<script>
-			$(document).ready(function(){
-				//main.js
-				Init();
-			});
-		</script>
 
 	</head>
 	<body>
@@ -72,7 +67,7 @@
 		<section class="page_section section_about">
 			<div class="section_container container">
 				<div class="about_row row justify-content-center">
-					<div class="col">
+					<div class="col" data-aos="fade">
 						<h1 class="dark_title">A little about me</h1>
 						<div class="dark_hr" style="width:15%"></div>
 						<p class="dark_desc_text">Hello and welcome to my playground! My name is Daniel and I am a full stack developer.</p>
@@ -89,8 +84,8 @@
 		</div>
 		<section class="page_section section_skills">
 			<div class="section_container container">
-				<div class="skills_row row ">
-					<div class="col-lg-6 col-md-12 col-sm-12" style="margin-bottom: 5%;">
+				<div class="skills_row row">
+					<div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" style="margin-bottom: 5%;">
 						<h1 class="light_title">Some of my skills</h1>
 						<div class="light_hr"></div>
 						<p class="light_desc_text">I've been working in this industry for about 3 years. I was mentored by awesome people which led me being trusted of projects on my own. Learned a great deal of cool stuff. Practice makes perfect!</p>
@@ -99,7 +94,7 @@
 				<div class="skills_row row">
 						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div class="row justify-content-center">
-								<div class="skills_box_container">
+								<div class="skills_box_container" data-aos="fade-up">
 									<div class="skills_box vcenter">
 										<div class="skills_icon"><img class="skills_icon_img" src="img/interface.png" /></div>
 										<div class="skills_title"><h3>Web development</h3></div>
@@ -111,7 +106,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div class="row justify-content-center">
-								<div class="skills_box_container">
+								<div class="skills_box_container" data-aos="fade-up" data-aos-delay="200">
 									<div class="skills_box vcenter">
 										<div class="skills_icon"><img class="skills_icon_img" src="img/coding.png" /></div>
 										<div class="skills_title"><h3>Multi language</h3></div>
@@ -123,7 +118,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div class="row justify-content-center">
-								<div class="skills_box_container">
+								<div class="skills_box_container" data-aos="fade-up" data-aos-delay="400">
 									<div class="skills_box vcenter">
 										<div class="skills_icon"><img class="skills_icon_img" src="img/responsive.png" /></div>
 										<div class="skills_title"><h3>Different devices</h3></div>
@@ -135,7 +130,7 @@
 						</div>
 						<div class="col-lg-3 col-md-6 col-sm-12">
 							<div class="row justify-content-center">
-								<div class="skills_box_container">
+								<div class="skills_box_container" data-aos="fade-up" data-aos-delay="600">
 									<div class="skills_box vcenter">
 										<div class="skills_icon"><img class="skills_icon_img" src="img/database.png" /></div>
 										<div class="skills_title"><h3>Databases</h3></div>
@@ -157,53 +152,53 @@
 		<section class="page_section section_projects">
 			<div class="section_container container">
 				<div class="projects_row row justify-content-center">
-					<div class="col-lg-6 col-md-6 col-sm-12" style="">
+					<div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-right">
 						<h1 class="dark_title">Some of my projects</h1>
 						<div class="dark_hr"></div>
 					</div>
-					<div class="col-lg-6 col-md-6 col-sm-12">
+					<div class="col-lg-6 col-md-6 col-sm-12" data-aos="fade-down-left">
 						<p class="dark_desc_text">This section consists of some of my personal projects that I would like to share. Some projects are big and others are small. These are challenges that I throw at myself such as this web page where I code for one or two hours a day on my free time. Enjoy!</p>
 					</div>
 				</div>
 				<div class="projects_row row">
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="100">
 								1
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="300">
 								2
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="400">
 								3
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="300">
 								4
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="600">
 								5
 							</div>
 						</div>
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-12">
 						<div class="row justify-content-center">
-							<div class="project_box">
+							<div class="project_box" data-aos="zoom-in-up"  data-aos-delay="200">
 								6
 							</div>
 						</div>

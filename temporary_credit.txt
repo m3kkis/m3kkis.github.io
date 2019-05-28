@@ -23,3 +23,15 @@ https://www.toptal.com/designers/subtlepatterns/faq/
 If I use Toptal Subtle Patterns for my personal website or commercial project, do I need to credit it?
 Yes. Please credit Toptal Subtle Patterns using a comment in your HTML or CSS code. CSS Example:
 /* Background pattern from Toptal Subtle Patterns */
+
+
+
+
+-- JQUERY
+
+-- JQUERRY MOBILE
+
+-- BOOTSTRASP
+
+-- AOS
+https://github.com/michalsnik/aos/tree/v2

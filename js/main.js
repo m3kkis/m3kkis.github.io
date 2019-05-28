@@ -1,5 +1,7 @@
-function Init(){
+$(document).ready(function(){
 
+    AOS.init();
+    
     $(".nav_menu_btn").off();
     $(".nav_menu_btn").on("mousedown touchstart",function(){
         if($(this).hasClass("is-active"))
@@ -17,4 +19,4 @@ function Init(){
         
     });
 
-}
+});
