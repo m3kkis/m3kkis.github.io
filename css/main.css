@@ -50,24 +50,51 @@ body{
 }
 
 /* LINKS */
-/* unvisited link */
 .nav_link:link {
     color: #212529;
 }
+.nav_link_foot:link {
+    color: grey;
+}
+.nav_link_touch:link {
+    color: white;
+}
 
-/* visited link */
+
+
 .nav_link:visited {
     color: #212529;
 }
-
-/* mouse over link */
-.nav_link:hover {
-    color: #216225;
+.nav_link_foot:visited {
+    color: grey;
+}
+.nav_link_touch:visited {
+    color: white;
 }
 
-/* selected link */
+
+
+.nav_link:hover {
+    color: #38B040;
+}
+.nav_link_foot:hover {
+    color: #38B040;
+}
+.nav_link_touch:hover {
+    color: white;
+}
+
+
+
+
 .nav_link:active {
     color: #212529;
+}
+.nav_link_foot:active {
+    color: grey;
+}
+.nav_link_touch:active {
+    color: white;
 }
 
 /* NAVIGATION */
@@ -333,6 +360,10 @@ CONTACT
     margin-bottom: 20px;
 }
 
+.contact_divisions{
+    margin-bottom: 10%;
+}
+
 .contact_logo_text{
     font-size: 3em;
     text-align: center;
@@ -405,10 +436,12 @@ CONTACT
 
 .message_btn{
     width: 100px;
-    height: 40px;
+    height: 47px;
     border: 6px solid green;
     margin-top: 10px;
     transition: 0.3s;
+    color: white;
+    background-color: transparent;
 }
 
 .message_btn:hover{
