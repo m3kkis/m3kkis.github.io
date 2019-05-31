@@ -126,7 +126,8 @@ body{
 .logo_menu_container{
     margin: 0 auto;
     width: 100px;
-    border-bottom: 5px solid #38B040;
+    border-bottom: 5px solid;
+    border-bottom-color: #29872f;
 }
 
 .logo_menu{
