@@ -13,6 +13,7 @@ $(document).ready(function(){
         var iScrollBanner = $(".section_banner").offset().top
         var iScrollAbout = $(".section_about").offset().top
         var iScrollSkills = $(".section_skills").offset().top
+        var iScrollCalendar = $(".section_calendar").offset().top
         var iScrollProjects = $(".section_projects").offset().top
         var iScrollWork = $(".section_work").offset().top
         var iScrollContact = $(".section_contact").offset().top
@@ -25,6 +26,8 @@ $(document).ready(function(){
             $(".logo_menu").css("color","#212529");
         if( $(document).scrollTop() > iScrollProjects ) 
             $(".logo_menu").css("color","white");
+        if( $(document).scrollTop() > iScrollCalendar ) 
+            $(".logo_menu").css("color","#212529");
         if( $(document).scrollTop() > iScrollWork ) 
             $(".logo_menu").css("color","white");
         if( $(document).scrollTop() > iScrollContact ) 
