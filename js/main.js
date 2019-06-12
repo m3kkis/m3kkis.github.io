@@ -2,6 +2,7 @@ $(document).ready(function(){
 
     /* INITIALIZE LIBRARY */
     AOS.init();
+    new GitHubCalendar(".calendar", "m3kkis");
 
     /* CHANGE NAV COLOR ON SCROLL */
     $(document).on("scroll",function(){
