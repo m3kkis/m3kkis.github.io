@@ -1,9 +1,11 @@
 /* GENERAL */
 
-body{
-    font-family: 'Rubik', sans-serif;
-    background-image: url("../img/cubes.png");
-    background-repeat: repeat;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .vcenter{
@@ -13,475 +15,103 @@ body{
     text-align: center;
 }
 
+.hcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .hide-me{
     display: none;
 }
 
-::placeholder { 
-    color: rgb(87, 87, 87); 
-} 
-  
-:-ms-input-placeholder { 
-    color: rgb(87, 87, 87); 
-} 
-  
-::-ms-input-placeholder {
-    color: rgb(87, 87, 87); 
-} 
+/**/
 
-/* SEPARATOR */
-.section_separator{
-    position: relative;
-    height: 100px;
+.section-navbar{
+    width: 100%;
+    height: 150px;
+    background-color: #111517;
 }
 
-.svg_slant{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
+.nav-logo-container{
+    height: 100%;
+    width: 200px;
+    color: #00ffc3;
+    font-size: 35px;
+    float: left;
 }
 
-.section_separator_hr{
+.nav-menu-container{
+    height: 100%;
+    width: 110px;
+    font-size: 15px;
+    float: left;
+    color: #b5b5b5;
+}
+
+.section-welcome{
     width: 100%;
+    height: 750px;
+    background-color: #111517;
+}
+
+.welcome-container{
+    height: 100%;
+    width: 90%;
+    /* background-color: red; */
+    margin: 0 auto;
+    color: white;
+    padding-top: 50px;
+}
+
+.welcome-text{
+    font-size: 100px;
+}
+
+.separator-text{
+    width: 125px;
     height: 10px;
-    /*background-color: #216225;*/
-    background-image: linear-gradient(to right, #38B040,#2D8933,#216225,#2D8933, #38B040);
+    background-color: #00ffc3;
+    margin-left: 7px;
 }
 
-/* LINKS */
-.nav_link:link {
-    color: #212529;
-}
-.nav_link_foot:link {
-    color: grey;
-}
-.nav_link_touch:link {
-    color: white;
-}
-
-
-
-.nav_link:visited {
-    color: #212529;
-}
-.nav_link_foot:visited {
-    color: grey;
-}
-.nav_link_touch:visited {
-    color: white;
-}
-
-
-
-.nav_link:hover {
-    color: #38B040;
-}
-.nav_link_foot:hover {
-    color: #38B040;
-}
-.nav_link_touch:hover {
-    color: white;
-}
-
-
-
-
-.nav_link:active {
-    color: #212529;
-}
-.nav_link_foot:active {
-    color: grey;
-}
-.nav_link_touch:active {
-    color: white;
-}
-
-/* NAVIGATION */
-.navigation_menu{
-    position: fixed;
+.separator-thin{
     width: 100%;
-    height: 100px;
-    z-index: 10;
+    height: 1px;
+    background-color: grey;
+    margin-left: 7px;
+    margin-top: 100px;
 }
 
-.navigation_menu_container{
-    max-width: 1920px;
-    height: 100%;
-    margin: 0 auto;
+.welcome-desc{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    margin-left: 7px;
+    margin-top: 20px;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    width: 700px;
 }
 
-.nav_menu_left{
-    width: 50%;
-    height: 100%;
-    float: left;
-}
-
-.nav_menu_right{
-    width: 50%;
-    height: 100%;
+.welcome-desc-right{
+    font-family: 'Karla', sans-serif;
+    font-size: 25px;
+    margin-left: 7px;
+    margin-top: 20px;
+    /* letter-spacing: 1px; */
+    word-spacing: 2px;
+    width: 700px;
     float: right;
+    text-align: right;
 }
 
-.logo_menu_container{
-    margin: 0 auto;
-    width: 100px;
-    border-bottom: 5px solid;
-    border-bottom-color: #29872f;
-}
-
-.logo_menu{
-    font-size: 2.5em;
-}
-
-.navigation_menu_open{
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: 5;
-    top: 0;
-}
-
-.nav_open_menu{
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
-}
-
-.nav_open_menu_link{
-    font-size: 3em;
-}
-
-.nav_menu_btn{
-
-}
-
-/***** SECTION *****/
-.page_section{
-    position: relative;
-    width: 100%;
-    height: 700px;
-
-}
-
-.section_container{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-/*
-BANNER
-*/
-
-.section_banner{
-
-}
-
-.banner_logo{
-    width: 45vh;
-    max-width: 400px;
-}
-
-
-/*
-ABOUT
-*/
-
-.section_about{
-    background-color: #0E0E0E;
-    height: auto;
-    text-align: center;
-}
-
-
-
-/*
-SKILLS
-*/
-.section_skills{
-    height: auto;
-}
-
-.skills_row{
-
-}
-
-.light_title{
-    color: #212529;
-}
-
-.light_hr{
-    background-color: #38B040;
-    height: 5px;
-    width: 40%;
-    margin-bottom: 5%;
-}
-
-.light_desc_text{
-    color: #212529;
-}
-
-.skills_box_container{
-    width: 100%;
-    /* height: 375px; */
-    margin-bottom: 5%;
-}
-
-.skills_box{
-    width: 97%;
-    /* height: auto; */
-    margin: 0 auto;
-    transition: 0.3s;
-    padding: 15px;
-}
-
-.skills_icon{
-
-}
-
-.skills_icon_img{
-    width:64px;
-}
-
-.skills_title{
-
-}
-
-.skills_desc{
-    font-weight: lighter;
-}
-
-
-/*
-PROJECTS
-*/
-.section_projects{
-    background-color: #0E0E0E;
-    height: auto;
-}
-
-.projects_row{
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.project_box{
-    background-color: rgb(29, 29, 29);
-    width: 300px;
-    height: 300px;
-    margin-bottom: 20%;
-    -webkit-box-shadow: 0px 0px 15px 6px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 0px 15px 6px rgba(0,0,0,1);
-    box-shadow: 0px 0px 15px 6px rgba(0,0,0,0.4);
-}
-
-.project_box_img{
-    width: 100%;
-    height: 100%;
-}
-
-.dark_title{
-    text-align: center;
-    color: white;
-}
-
-.dark_hr{
-    background-color: #38B040;
-    height: 5px;
-    width: 50%;
-    margin: 0 auto;
-    margin-bottom: 5%;
-}
-
-.dark_desc_text{
-    color: grey;
-}
-
-/*
-CALENDAR
-*/
-
-.section_calendar{
-    height: auto;
-}
-
-.calendar{
-    width: 100% !important;
-}
-
-/*
-WORK
-*/
-.section_work{
-    background-color: #38B040;
-    position: relative;
-    z-index: 1;
-}
-
-.section_work_bg{
-    position: absolute;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: url('../img/circuit1.jpg') center center;
-    opacity: 0.1;
-    width: 100%;
-    height: 100%;
-}
-
-.page_section_container{
-    width: 50%;
-    height: 50%;
-    margin: 0 auto;
-}
-
-.work_btn{
-    width: 210px;
-    border: 4px solid #216225;
-    border-radius: 25px;
-    margin: 0 auto;
-    transition: 0.3s;
-}
-
-.work_btn:hover{
-    background-color: #216225;
-    transition: 0.3s;
-}
-
-.work_btn_text{
-    font-size: 1.5em;
-    color: white;
-}
-
-
-/* 
-CONTACT 
-*/
-
-.section_contact{
-    position: relative;
-    background-color: #282828;
-    font-family: 'Teko', sans-serif;
-    color: white;
-    height: auto;
-}
-
-.contact_logo{
-    border: 9px solid #38B040;
-    width: 143px;
-    height: 77px;
-    margin: 0 auto;
-    margin-bottom: 20px;
-}
-
-.contact_divisions{
-    margin-bottom: 10%;
-}
-
-.contact_logo_text{
-    font-size: 3em;
-    text-align: center;
-}
-
-.contact_social{
-    padding-bottom: 20px;
-}
-
-.contact_social_img{
-    float: left;
-    height: 35px;
-}
-
-.contact_projects{
-
-}
-
-.contact_title{
-    width: 100%;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.contact_separator{
-    width: 50%;
-    height: 2px;
-    background-color: #38B040;
-    border-radius: 25px;
-}
-
-.contact_text{
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-    color: grey;
-}
-
-.message_title{
-    width: 100%;
-    text-align: center;
-    font-size: 2.5em;
-}
-
-.message_text{
-    width: 100%;
-    color: white;
-    font-size: 1.5em;
-}
-
-.message_txtbox{
-    width: 100%;
-    background-color: rgb(170, 170, 170);
-    border: none;
-    color: #0E0E0E;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-}
-
-.message_textarea{
-    width: 100%;
-    height: 140px;
-    background-color: rgb(170, 170, 170);
-    resize: none;
-    border: none;
-    color: #0E0E0E;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-}
-
-.message_btn{
-    width: 100px;
-    height: 47px;
-    border: 6px solid green;
-    margin-top: 10px;
-    transition: 0.3s;
-    color: white;
-    background-color: transparent;
-}
-
-.message_btn:hover{
-    background-color: green;
-    transition: 0.3s;
-}
-
-.message_btn_text{
-    font-size: 1.5em;
-    text-align: center;
-}
-
-
-
-/* 
-FOOTER 
-*/
-
-.section_footer{
-    height: 100px !important;
-    background-color: #1f1f1f;
-}
-
-.footer_text{
-    color: #3b3b3b;
+.welcome-btn{
+    width: 160px;
+    height: 70px;
+    background-color: #00ffc3;
+    color: #111517;
+    font-size: 40px;
+    margin-left: 7px;
+    margin-top: 25px;
+    border-radius: 5px;
 }
