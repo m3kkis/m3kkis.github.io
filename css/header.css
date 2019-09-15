@@ -55,11 +55,12 @@ html, body {
 }
 
 #menu-container{
-    width: 190px;
+    width: 220px;
     height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 6px;
 }
 
 #menu-items{
