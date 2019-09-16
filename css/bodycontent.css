@@ -1,31 +1,219 @@
 /* GENERAL */
 .page-section{
     width: 100%;
-    height: 500px;
+    height: 100vh;
 }
 
-/* SECTIONS */
+.section-title-dark{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6vh;
+}
 
+.section-separator-dark{
+    height: 7px;
+    width: 100px;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.section-desc-dark{
+    font-family: 'Karla', sans-serif;
+}
+
+.section-title-light{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 6vh;
+}
+
+.section-separator-light{
+    color: white;
+    height: 7px;
+    width: 100px;
+    background-color: #00ffc3;
+    margin-bottom: 10px;
+}
+
+.section-desc-light{
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+
+.section_slant{
+    position: relative;
+    height: 100px;
+}
+
+.svg_slant{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+}
+
+/* 
+     SECTIONS 
+*/
+
+/* ABOUT ME */
 #section-about{
     background-color: white;
+    background-image: url("../img/bgpat.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#about-container{
+    height: 100%;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#about-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-img-placeholder{
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px
+}
+
+/* SKILLS */
 
 #section-skills{
-    background-color: black;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(0,255,195);
+    background: linear-gradient(180deg, rgba(0,255,195,1) 0%, rgba(255,255,255,1) 25%);
 }
 
+#skills-container{
+    height: 100%;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#skills-text-content{
+
+}
+
+#skills-box-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-box-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-one-box{
+    height: 400px;
+    width: 300px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* PROJECTS */
 
 #section-projects{
-    background-color: white;
+    height: auto !important;
+    background-color: #111517;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#projects-container{
+    height: 100%;
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#projects-box-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-box-order{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-one-box{
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* GITHUB */
 
 #section-git{
-    background-color: black;
+    height: auto !important;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#git-container{
+    height: 100%;
+    width: 84%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#git-text-content{
+    display: flex;
+    flex-direction: column;
+}
+
+#git-calendar-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 #section-contact{
-    background-color: white;
+    background-color: #111517;
 }
