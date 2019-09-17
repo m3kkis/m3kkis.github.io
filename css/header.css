@@ -65,7 +65,44 @@ html, body {
 
 #menu-items{
     width: 100%;
-    color: #c4c4c4;
+    color: #808080;
+}
+
+.menu_links{
+    text-decoration: none;
+}
+
+.menu_links:link {
+    color: #808080;
+    text-decoration: none;
+}
+  
+.menu_links:visited {
+    color: #808080;
+    text-decoration: none;
+}
+
+.menu_links:hover {
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+
+.menu_links:hover:before {
+    content: "";
+    position: absolute;
+    background: #00ffc3;
+    color: white;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    left:-10px;
+}
+
+.menu_links:active {
+    color: #808080;
+    text-decoration: none;
 }
 
 #landing-container{

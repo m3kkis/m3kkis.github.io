@@ -193,6 +193,12 @@
     border-radius: 10px;
 }
 
+.projects_img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 /* GITHUB */
 
 #section-git{
@@ -229,4 +235,11 @@
     background-color: #00ffc3;
     background-image: url("../img/bgpat.png");
     background-repeat: repeat;
+}
+
+/* FOOTER */
+
+#section-footer{
+    background-color: #111517;
+    height: 600px !important;
 }
