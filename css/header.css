@@ -63,7 +63,7 @@ html, body {
     margin-left: 6px;
 }
 
-#menu-items{
+.menu-items{
     width: 100%;
     color: #808080;
 }
@@ -104,6 +104,7 @@ html, body {
     color: #808080;
     text-decoration: none;
 }
+
 
 #landing-container{
     width: 100%;
