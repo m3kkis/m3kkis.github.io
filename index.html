@@ -1,218 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
-		<meta name="Daniel Mekker" content="&#129304;">
 
-		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="HandheldFriendly" content="true">
-
+		<!-- Basic Page Needs
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta charset="utf-8">
 		<title>DMEKK</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-		<!-- FONTS -->
-		<link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Karla&display=swap" rel="stylesheet">
+		<!-- Mobile Specific Metas
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" href="css/hamburgers.min.css">
-		<link rel="stylesheet" type="text/css" href="css/github-calendar.css">
-		<link rel="stylesheet" type="text/css" href="css/header.css">
-		<link rel="stylesheet" type="text/css" href="css/bodycontent.css">
-		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<!-- FONT
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
 
-		<!-- JS -->
-		<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-		<script type="text/javascript" src="js/github-calendar.min.js"></script>
+		<!-- CSS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/skeleton.css">
+		<link rel="stylesheet" href="css/layout.css">
+
+		<!-- JS
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/main.js"></script>
+
+		<!-- JSON
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<script type="text/javascript" src="js/projects.json"></script>
+
+		<!-- Favicon
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<link rel="icon" type="image/png" href="img/favicon.ico">
+
 	</head>
 	<body>
-		<div id="hburger-menu">
-			<button class="nav_menu_btn hamburger hamburger--squeeze hbpos" type="button">
-				<span class="hamburger-box">
-					<span class="hamburger-inner"></span>
-				</span>
-			</button>
-		</div>
-		<header id="welcome-header">
-			<div id="navbar-container">
-				<div id="logo-container">
-					<div id="logo-container-text">DMEKK</div>
-				</div>
-				<div id="menu-container">
-					<table class="menu-items">
-						<tr>
-							<td><a href="#welcome-header" class="menu_links">HOME</a></td>
-							<td><a href="#section-skills" class="menu_links">SKILLS</a></td>
-							<td><a href="#section-git" class="menu_links">GITHUB</a></td>
-						</tr>
-						<tr>
-							<td><a href="#section-about" class="menu_links">ABOUT</a></td>
-							<td><a href="#section-projects" class="menu_links">PROJECTS</a></td>
-							<td><a href="#section-contact" class="menu_links">CONTACT</a></td>
-						</tr>
-					</table>
-				</div>
-			</div>
-			<div id="landing-container">
-				<div id="landing-wrapper">
-					<div id="landing-big-text"> SOFTWARE <br> DESIGN & DEVELOPMENT </div>
-					<div id="landing-thick-hr"></div>
-					<div id="landing-small-text"> Spicy jalapeno bacon ipsum dolor amet kielbasa eu sausage sed, culpa tongue ut adipisicing prosciutto picanha veniam flank. Ipsum fatback fugiat, lorem cupidatat laboris porchetta bacon. </div>
-					<div id="landing-start-btn" >
-						<div id="landing-start-btn-text">START</div>
-					</div>
-					<div id="landing-thin-hr"></div>
-					<div id="landing-footer">LOOK INSIDE</div>
-				</div>
-			</div>
-		</header>
-		<section id="section-about" class="page-section">
-			<div id="about-container" class="section-container">
-				<div id="about-text-content">
-					<div class="section-title-dark">ABOUT ME</div>
-					<div class="section-separator-dark"></div>
-					<div class="section-desc-dark"> Hello and welcome to my playground! My name is Daniel and I am a full stack developer. I have completed my programming studies at Lasalle College in Montreal. I have worked throughout one internship and since then got an awesome opportunity to start my first career-oriented job where I've touched on multiple different projects and technologies. During my free time I code and learn new stuff, watch movies or play video games. This web page is part of my little challenge where I code for one or two hours a day no matter the extent of the idea. Cheers! </div>
-				</div>
-			</div>
-		</section>
-		<section id="section-skills" class="page-section">
-			<div id="skills-container" class="section-container">
-				<div id="skills-text-content">
-					<div class="section-title-dark">MY SKILLS</div>
-					<div class="section-separator-dark"></div>
-					<div class="section-desc-dark"> I've been working in this industry for almost 3 years during which I had the opportunity of being mentored by experienced colleagues. This allowed me to be trusted in applying my own creative ideas and insights towards projects. I’m constantly learning a great deal of cool stuff and my passion for the industry continues to grow. Practice makes perfect! </div>
-				</div>
-				<div id="skills-box-content">
-					<div class="skills-box-order">
-						<div class="skills-one-box">
-							<div class="skills-one-box-title">WEB DEVELOPMENT</div>
-							<div class="skills-one-box-desc">Creating web pages for clients or user interfaces at my current workplace with multiple functionalities for different projects. Handling both front and backend processes.</div>
-						</div>
-						<div class="skills-one-box">
-							<div class="skills-one-box-title">MULTI LANGUAGE</div>
-							<div class="skills-one-box-desc">Coding experience in multiple languages such as C++, C#, JAVA, Javascript, PHP etc... I try to play with everything whether on a professional level or as a hobby.</div>
+		<!-- Primary Page Layout
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+		<section id="about-section" class="page-section">
+			<div class="container vcenter">
+				<div class="row">
+					<div class="one-half column">
+						<h1 class="about-title">DANIEL MEKKER</h1>
+						<p class="about-pos">Developer from Qu&eacutebec, Canada🍁</p>
+						<p class="about-desc">Hello! My name is Daniel and I am a full stack developer. Finished my studies in Montr&eacuteal, compeleted an internship and currently working full-time.</p>
+						<div class="external-links">
+							<img id="" class="about-img" src="img/cv.png">
+							<img id="" class="about-img" src="img/git.png">
+							<img id="" class="about-img" src="img/email.png">
 						</div>
 					</div>
-					<div class="skills-box-order">
-						<div class="skills-one-box">
-							<div class="skills-one-box-title">DIFFERENT DEVICES</div>
-							<div class="skills-one-box-desc">I worked on different projects that required to have a fully responsive website or UI for both PC and mobile platforms. Mostly using Bootstrap which I really enjoyed!</div>
-						</div>
-						<div class="skills-one-box">
-							<div class="skills-one-box-title">DATABASES</div>
-							<div class="skills-one-box-desc">Throughout college and my internship, I worked often with relational databases (SQL). Whereas during the debut of my career, I've been working a lot with a non-relational database (MongoDB). These allowed me to work with the two sides of the coin!</div>
-						</div>
+					<div class="one-half column">
+						<div class="projects-title">Projects & Codes ...</div>
+						<ul id="projects-list" class="page-lists"></ul>  
 					</div>
 				</div>
 			</div>
 		</section>
-		<div class="section_slant">
-			<svg class="svg_slant" viewBox="0 0 100 100" fill="#111517" preserveAspectRatio="none">
-				<polygon points="0,0 0,100 100,100" />
-			</svg>
-		</div>
-		<section id="section-projects" class="page-section">
-			<div id="projects-container" class="section-container">
-				<div id="projects-text-content">
-					<div class="section-title-light">MY PROJECTS</div>
-					<div class="section-separator-light"></div>
-					<div class="section-desc-light"> This section consists of some of my personal projects that I would like to share. Some projects are big and others are small. These are challenges that I throw at myself such as this web page where I code for one or two hours a day on my free time. Enjoy! </div>
-				</div>
-				<div id="projects-box-content">
-					<div class="projects-box-order">
-						<div class="projects-one-box">
-							<a href="https://github.com/m3kkis/OLD_Portfolio_V1" ><img src="./img/portfoliov1.PNG" class="projects_img" /><a>
-						</div>
-						<div class="projects-one-box">
-							<a href="https://github.com/m3kkis/RPi-LedGame" ><img src="./img/rpisnake.gif" class="projects_img" /><a>
-						</div>
-					</div>
-					<div class="projects-box-order">
-						<div class="projects-one-box">
-							<a href="https://github.com/m3kkis/playground_njs_socket" ><img src="./img/default_project.jpg" class="projects_img" /><a>
-						</div>
-						<div class="projects-one-box">
-							<a href="https://github.com/m3kkis/m3kkis.github.io" ><img src="./img/portfoliov2.png" class="projects_img" /><a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<div class="section_slant">
-			<svg class="svg_slant" viewBox="0 0 100 100" fill="#111517" preserveAspectRatio="none">
-				<polygon points="0,0 100,0 100,100" />
-			</svg>
-		</div>
-		<section id="section-git" class="page-section">
-			<div id="git-container" class="section-container">
-				<div id="git-text-content">
-					<div class="section-title-dark">GITHUB</div>
-				</div>
-				<div id="git-calendar-content">
-					<div class="calendar"></div>
-				</div>	
-			</div>
-		</section>
-		<section id="section-contact" class="page-section">
-			<div id="contact-container" class="section-container">
-				<div id="contact-text-content">
-					<div class="section-title-dark">LET'S BUILD TOGETHER</div>
-					<div class="section-desc-dark"> Spicy jalapeno bacon ipsum dolor amet kielbasa eu sausage sed, culpa tongue ut adipisicing prosciutto picanha veniam flank. Ipsum fatback fugiat, lorem cupidatat laboris porchetta bacon.  </div>
-				</div>
-				<div id="contact-btn" >
-					<div id="contact-btn-text">CONTACT ME</div>
-				</div>
-			</div>
-		</section>
-		<section id="section-footer" class="page-section">
-			<div id="footer-container" class="section-container">
-				<div class="footer-box">
-					<div class="section-title-light">PROJECTS</div>
-					<div class="section-separator-light"></div>
-					<div class="section-desc-light">
-						<table class="menu-items">
-							<tr>
-								<td><a href="https://github.com/m3kkis/OLD_Portfolio_V1" class="menu_links_footer">Old Portfolio</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/m3kkis/RPi-LedGame" class="menu_links_footer">RPi Snake Game (Python)</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/m3kkis/playground_njs_socket" class="menu_links_footer">NodeJS&Sockets Sandbox</a></td>
-							</tr>
-							<tr>
-								<td><a href="https://github.com/m3kkis/m3kkis.github.io" class="menu_links_footer">Main Portfolio</a></td>
-							</tr>
-						</table>
-					</div>
-				</div>
-				<div class="footer-box">
-					<div class="section-title-light">CONTACT</div>
-					<div class="section-separator-light"></div>
-					<div class="section-desc-light">Spicy jalapeno bacon ipsum dolor amet kielbasa eu sausage sed, culpa tongue ut adipisicing prosciutto picanha veniam flank. Ipsum fatback fugiat, lorem cupidatat laboris porchetta bacon.</div>
-				</div>
-				<div class="footer-box">
-					<div class="section-title-light">SITEMAP</div>
-					<div class="section-separator-light"></div>
-					<div class="section-desc-light">
-						<table class="menu-items">
-							<tr>
-								<td><a href="#welcome-header" class="menu_links_footer">HOME</a></td>
-								<td><a href="#section-projects" class="menu_links_footer">PROJECTS</a></td>
-							</tr>
-							<tr>
-								<td><a href="#section-about" class="menu_links_footer">ABOUT</a></td>
-								<td><a href="#section-git" class="menu_links_footer">GITHUB</a></td>
-							</tr>
-							<tr>
-								<td><a href="#section-skills" class="menu_links_footer">SKILLS</a></td>
-								<td><a href="#section-contact" class="menu_links_footer">CONTACT</a></td>
-							</tr>
-						</table>
-					</div>
-				</div>
-			</div>
-		</section>
+		<!-- End Document
+		–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	</body>
 </html>

@@ -1,0 +1,121 @@
+body{
+    background-color: #101214;
+    color: #ffffff;
+}
+
+.page-section{
+    height: 100vh;
+}
+
+.vcenter{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #adb0b6;
+}
+
+a:active {
+    color: #7A7C80;
+}
+
+
+ul {
+    list-style: none;
+ }
+
+
+
+
+
+.about-title{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.about-pos{
+    font-family: 'Oswald', sans-serif;
+    color: #adb0b6;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-desc{
+    color: #7A7C80;
+    text-align: center;
+}
+
+.about-img{
+    height: 20px;
+    padding: 10px;
+}
+
+.external-links{
+    width: 100%;
+    margin: 0 auto;
+    width: 130px;
+}
+
+
+
+
+.projects-title{
+    font-family: 'Yellowtail', cursive;
+    font-size: 32px;
+}
+
+.page-lists{
+    color: #7A7C80;
+}
+
+
+
+
+
+.code-tags{
+    display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-left: 5px;
+}
+
+.tag-html{
+    color: #e34c26;
+    border: solid #e34c26 1px;
+}
+
+.tag-css{
+    color:#563d7c;
+    border: solid #563d7c 1px;
+}
+
+.tag-javascript{
+    color:#f1e05a;
+    border: solid #f1e05a 1px;
+}
+
+.tag-python{
+    color:#3572A5;
+    border: solid #3572A5 1px;
+}
+
+.tag-shell{
+    color:#89e051;
+    border: solid #89e051 1px;
+}

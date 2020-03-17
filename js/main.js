@@ -1,16 +1,48 @@
 $(document).ready(function(){
-    new GitHubCalendar(".calendar", "m3kkis");
 
-    $(".nav_menu_btn").off();
-    $(".nav_menu_btn").on("click",function(){
-        if($(this).hasClass("is-active"))
-        {
-            $(this).removeClass("is-active");
+    $.ajax({
+        url: "js/projects.json",
+        dataType: "json",
+        success: function(data){
+            console.log("json load success");
+            appendProjectsList(data);
+        },
+        error: function(e){
+            console.log("failed to load json");
         }
-        else
-        {
-            $(this).addClass("is-active");
-        }
-        
     });
+
+    function appendProjectsList(projectsList){
+
+        sHtml = "";
+        for(var i = 0; i < projectsList.length; i++)
+        {
+            if(projectsList[i].tags != undefined)
+            {
+                sTags = "";
+
+                for(var j = 0; j < projectsList[i].tags.length; j++)
+                {
+                    /*
+                        html
+                        css
+                        javascript
+                        python
+                        shell
+                    */
+
+                   sTags += '<div class="code-tags tag-'+projectsList[i].tags[j]+'">'+projectsList[i].tags[j].toUpperCase()+'</div>';
+
+                }
+            }
+            
+            sHtml += '<li><div><a href="'+projectsList[i].link+'"><b>'+projectsList[i].name+'</b></a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
+        }
+        $("#projects-list").append(sHtml);
+    }
+
+    function appendProjects(){
+
+    }
+
 });

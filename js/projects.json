@@ -1,0 +1,20 @@
+[
+    {
+        "name":"Portfolio",
+        "tags":["html","css","javascript"],
+        "description":"This is my portfolio on github",
+        "link":"https://github.com/m3kkis/m3kkis.github.io"
+    },
+    {
+        "name":"LED snake game",
+        "tags":["python"],
+        "description":"Developed a python game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Python.",
+        "link":"https://github.com/m3kkis/led-snake-game"
+    },
+    {
+        "name":"Status shell script",
+        "tags":["shell"],
+        "description":"A small script that checks the status of repos in its current location.",
+        "link":"https://github.com/m3kkis/check-git-status"
+    }
+]
