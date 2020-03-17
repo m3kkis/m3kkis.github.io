@@ -1,6 +1,18 @@
+/* GENERAL */
 body{
     background-color: #101214;
     color: #ffffff;
+}
+
+.bg{
+    position: absolute;
+    background-image: url("../img/stripe.png");
+    background-repeat: repeat;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+    pointer-events: none;
+    opacity: 0.1;
 }
 
 .page-section{
@@ -13,6 +25,7 @@ body{
     transform: translateY(-50%);
 }
 
+/* LINKKS */
 a:link {
     color: white;
     text-decoration: none;
@@ -30,15 +43,47 @@ a:active {
     color: #7A7C80;
 }
 
-
+/* LIST */
 ul {
     list-style: none;
- }
+}
 
+/* TOOLTIP*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    right: 110%;
+    font-size: 12px;
+}
 
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent black;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
-
-
+/* ABOUT LEFT SIDE */
 .about-title{
     font-family: 'Oswald', sans-serif;
     text-align: center;
@@ -69,11 +114,10 @@ ul {
 }
 
 
-
-
+/* PROJECTS RIGHT SIDE */
 .projects-title{
     font-family: 'Yellowtail', cursive;
-    font-size: 32px;
+    font-size: 40px;
 }
 
 .page-lists{
@@ -83,7 +127,7 @@ ul {
 
 
 
-
+/* CODE TAGS */
 .code-tags{
     display: inline-block;
     font-size: 10px;

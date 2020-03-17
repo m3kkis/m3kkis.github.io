@@ -13,7 +13,6 @@ $(document).ready(function(){
     });
 
     function appendProjectsList(projectsList){
-
         sHtml = "";
         for(var i = 0; i < projectsList.length; i++)
         {
@@ -39,10 +38,6 @@ $(document).ready(function(){
             sHtml += '<li><div><a href="'+projectsList[i].link+'"><b>'+projectsList[i].name+'</b></a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
         }
         $("#projects-list").append(sHtml);
-    }
-
-    function appendProjects(){
-
     }
 
 });
