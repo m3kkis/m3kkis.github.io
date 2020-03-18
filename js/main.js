@@ -35,7 +35,7 @@ $(document).ready(function(){
                 }
             }
             
-            sHtml += '<li><div><a href="'+projectsList[i].link+'"><b>'+projectsList[i].name+'</b></a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
+            sHtml += '<li><div><a href="'+projectsList[i].link+'">'+projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
         }
         $("#projects-list").append(sHtml);
     }
