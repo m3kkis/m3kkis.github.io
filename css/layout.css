@@ -80,19 +80,19 @@ ul {
     position: absolute;
     z-index: 1;
     top: -5px;
-    right: 110%;
+    left: 110%;
     font-size: 12px;
 }
 
 .tooltip .tooltiptext::after {
-    content: "";
+    content: " ";
     position: absolute;
     top: 50%;
-    left: 100%;
+    right: 100%; /* To the left of the tooltip */
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent transparent black;
+    border-color: transparent black transparent transparent;
 }
 .tooltip:hover .tooltiptext {
     visibility: visible;
@@ -113,7 +113,6 @@ ul {
 
 .about-title{
     font-family: 'Oswald', sans-serif;
-    text-align: center;
     margin-bottom: 0px;
     color: #f1c40f;
     /*-webkit-animation: changecolor 40s infinite alternate;*/
@@ -136,13 +135,11 @@ ul {
 .about-pos{
     font-family: 'Oswald', sans-serif;
     color: #adb0b6;
-    text-align: center;
     margin-bottom: 10px;
 }
 
 .about-desc{
     color: #7A7C80;
-    text-align: center;
 }
 
 .about-img{
@@ -156,8 +153,6 @@ ul {
 }
 
 .external-links{
-    width: 100%;
-    margin: 0 auto;
     width: 130px;
 }
 
