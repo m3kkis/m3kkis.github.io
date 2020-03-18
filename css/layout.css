@@ -118,6 +118,11 @@ ul {
 .about-img{
     height: 20px;
     padding: 10px;
+    transition: 0.3s;
+}
+
+.about-img:hover{
+    background-color: rgba(128, 127, 122, 0.2);
 }
 
 .external-links{
@@ -131,6 +136,26 @@ ul {
 .projects-title{
     font-family: 'Yellowtail', cursive;
     font-size: 40px;
+}
+
+.blinkdot span {
+    animation-name: blink;
+    animation-duration: 1.4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+.blinkdot span:nth-child(2) {
+    animation-delay: .2s;
+}
+
+.blinkdot span:nth-child(3) {
+    animation-delay: .4s;
+}
+
+@keyframes blink {
+    0% {opacity: .2;}
+    20% {opacity: 1;}
+    100% {opacity: .2;}
 }
 
 .page-lists{
@@ -160,6 +185,11 @@ ul {
     color: #7A7C80;
     border: solid #7A7C80 1px;
     cursor: pointer;
+    transition: 0.3s
+}
+
+.filter-tag:hover{
+    background-color: rgba(122, 124, 128, 0.3);
 }
 
 .filter-text{
