@@ -136,7 +136,9 @@ ul {
 .page-lists{
     color: #7A7C80;
     overflow-y: scroll;
-    height: 400px;
+    height: auto;
+    max-height: 400px;
+    min-height: 300px;
 }
 
 .scroll::-webkit-scrollbar {
