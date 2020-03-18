@@ -12,6 +12,53 @@ $(document).ready(function(){
         }
     });
 
+    $(".filter-tag").on("click",function(){
+        var me = this;
+        var tagName = "tag-" + $(me).text().toLowerCase();
+
+        if( !$(me).hasClass(tagName) )
+        {
+            clearTags();
+
+            $(me).addClass(tagName);
+
+            $("#projects-list > li").each(function(){
+                var item = this;
+
+                if( !$(item).find('div').hasClass(tagName) )
+                {
+                    $(item).addClass("hide-me");
+                }
+                
+            });
+        }
+        else
+        {
+            clearTags();
+
+            $("#projects-list > li").each(function(){
+                var item = this;
+
+                if( !$(item).find('div').hasClass(tagName) )
+                {
+                    $(item).removeClass("hide-me");
+                }
+                
+            });
+        }
+
+    });
+
+    function clearTags(){
+        $("#projects-list > li").each(function(){
+            $(this).removeClass("hide-me");
+        });
+        
+        $(".filter-tag").each(function(){
+            $(this).attr('class','code-tags filter-tag');
+        });
+    }
+
     function appendProjectsList(projectsList){
         sHtml = "";
         for(var i = 0; i < projectsList.length; i++)
@@ -35,7 +82,7 @@ $(document).ready(function(){
                 }
             }
             
-            sHtml += '<li><div><a href="'+projectsList[i].link+'">'+projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
+            sHtml += '<li class=""><div><a href="'+projectsList[i].link+'">'+projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
         }
         $("#projects-list").append(sHtml);
     }

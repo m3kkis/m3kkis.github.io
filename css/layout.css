@@ -5,14 +5,16 @@ body{
 }
 
 .bg{
-    position: absolute;
-    background-image: url("../img/stripe.png");
+    position: fixed;
+    background-image: url(../img/stripe.png);
     background-repeat: repeat;
     height: 100vh;
     width: 100vw;
     z-index: 1;
     pointer-events: none;
     opacity: 0.1;
+    left: 0;
+    top: 0;
 }
 
 .page-section{
@@ -23,6 +25,17 @@ body{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
+}
+
+.hide-me{
+    display: none;
+}
+
+hr{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-width: 0;
+    border-top: 1px solid #7A7C80;
 }
 
 /* LINKKS */
@@ -122,12 +135,37 @@ ul {
 
 .page-lists{
     color: #7A7C80;
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 5px;
+  }
+   
+.scroll::-webkit-scrollbar-thumb {
+    background: #7A7C80; 
 }
 
 
-
-
 /* CODE TAGS */
+
+.tags-container{
+    margin-bottom: 10px;
+}
+
+.filter-tag{
+    color: #7A7C80;
+    border: solid #7A7C80 1px;
+    cursor: pointer;
+}
+
+.filter-text{
+    color: #7A7C80;
+    font-weight: bold;
+    font-size: 10px;
+}
+
 .code-tags{
     display: inline-block;
     font-size: 10px;
@@ -137,6 +175,13 @@ ul {
     padding-left: 1%;
     padding-right: 1%;
     margin-left: 5px;
+    height: 14px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .tag-html{
@@ -167,10 +212,10 @@ ul {
 /* BOTTOM FOOTER*/
 
 .bottom-footer{
-    margin-top: 100px;
+    margin-top: 10%;
     font-size: 10px;
     text-align: center;
-    color:#7A7C80;
+    color: #7A7C80;
 }
 
 .bottom-footer-text{
