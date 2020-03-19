@@ -1,11 +1,11 @@
 $(document).ready(function(){
-
     $.ajax({
         url: "js/projects.json",
         dataType: "json",
         success: function(data){
             console.log("json load success");
             appendProjectsList(data);
+            twemoji.parse(document.body);
         },
         error: function(e){
             console.log("failed to load json");
@@ -82,7 +82,7 @@ $(document).ready(function(){
                 }
             }
             
-            var prg = ((projectsList[i].progress == 'complete') ? "✔" : (projectsList[i].progress == 'incomplete') ? "🔨" : (projectsList[i].progress == 'inprogress') ? "🛠" : "" );
+            var prg = ((projectsList[i].progress == 'complete') ? "✅" : (projectsList[i].progress == 'incomplete') ? "🔨" : (projectsList[i].progress == 'inprogress') ? "🛠" : "" );
             
             sHtml += '<li class=""><div><a href="'+projectsList[i].link+'">'+ prg +projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
         }
