@@ -202,8 +202,18 @@ ul {
 
 /* CODE TAGS */
 
-.tags-container{
+.legend-container{
+    display: flex;
+    justify-content: space-between;
+    color: #7A7C80;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10px;
     margin-bottom: 10px;
+}
+
+.tags-container{
+    font-style: italic;
 }
 
 .filter-tag{

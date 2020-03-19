@@ -60,7 +60,7 @@ $(document).ready(function(){
     }
 
     function appendProjectsList(projectsList){
-        sHtml = "";
+        var sHtml = "";
         for(var i = 0; i < projectsList.length; i++)
         {
             if(projectsList[i].tags != undefined)
@@ -82,7 +82,9 @@ $(document).ready(function(){
                 }
             }
             
-            sHtml += '<li class=""><div><a href="'+projectsList[i].link+'">'+projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
+            var prg = ((projectsList[i].progress == 'complete') ? "✔" : (projectsList[i].progress == 'incomplete') ? "🔨" : (projectsList[i].progress == 'inprogress') ? "🛠" : "" );
+            
+            sHtml += '<li class=""><div><a href="'+projectsList[i].link+'">'+ prg +projectsList[i].name+'</a>'+sTags+'<br>'+projectsList[i].description+'</div></li>';
         }
         $("#projects-list").append(sHtml);
     }
