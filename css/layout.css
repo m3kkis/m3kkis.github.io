@@ -80,7 +80,7 @@ img.emoji {
 }
 
 em {
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 1rem;
     color: var(--em-col);
 }
