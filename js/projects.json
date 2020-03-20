@@ -33,40 +33,5 @@
         "description":"A nodejs project to practice building a login page using pug",
         "link":"https://github.com/m3kkis/login-page-pug",
         "progress": "incomplete"
-    },
-        {
-            "name":"Portfolio",
-            "tags":["html","css","javascript"],
-            "description":"This is my portfolio on github",
-            "link":"https://github.com/m3kkis/m3kkis.github.io",
-            "progress": "complete"
-        },
-        {
-            "name":"LED snake game",
-            "tags":["python"],
-            "description":"Developed a python game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Python.",
-            "link":"https://github.com/m3kkis/led-snake-game",
-            "progress": "complete"
-        },
-        {
-            "name":"Status shell script",
-            "tags":["shell"],
-            "description":"A small script that checks the status of repos in its current location.",
-            "link":"https://github.com/m3kkis/check-git-status",
-            "progress": "complete"
-        }, 
-        {
-            "name":"Code Collab",
-            "tags":["html","css","javascript"],
-            "description":"A nodejs project that allows you to ' live ' work/share your code with your team using socketsio",
-            "link":"https://github.com/m3kkis/code-collab",
-            "progress": "inprogress"
-        }, 
-        {
-            "name":"Login page (pug)",
-            "tags":["html","css","javascript"],
-            "description":"A nodejs project to practice building a login page using pug",
-            "link":"https://github.com/m3kkis/login-page-pug",
-            "progress": "incomplete"
-        }
+    }
 ]
