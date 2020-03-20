@@ -229,6 +229,7 @@ ul {
     height: auto;
     max-height: 400px;
     min-height: 300px;
+    margin-bottom: 10px;
 }
 
 .scroll::-webkit-scrollbar {
@@ -249,7 +250,6 @@ ul {
     font-weight: bold;
     font-style: italic;
     font-size: 10px;
-    margin-bottom: 10px;
 }
 
 .tags-container{
