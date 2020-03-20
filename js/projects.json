@@ -21,10 +21,17 @@
         "progress": "complete"
     }, 
     {
-        "name":"Code-Collab",
+        "name":"Code Collab",
         "tags":["html","css","javascript"],
         "description":"A nodejs project that allows you to ' live ' work/share your code with your team using socketsio",
         "link":"https://github.com/m3kkis/code-collab",
         "progress": "inprogress"
+    }, 
+    {
+        "name":"Login page (pug)",
+        "tags":["html","css","javascript"],
+        "description":"A nodejs project to practice building a login page using pug",
+        "link":"https://github.com/m3kkis/login-page-pug",
+        "progress": "incomplete"
     }
 ]
