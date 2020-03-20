@@ -12,6 +12,15 @@ $(document).ready(function(){
         }
     });
 
+    $('.theme-switch input[type="checkbox"]').on('change',function(e){
+        if (e.target.checked) {
+            $(document.documentElement).attr('data-theme', 'light');
+        }
+        else {
+            $(document.documentElement).attr('data-theme', 'dark');
+        }    
+    });
+
     $(".filter-tag").on("click",function(){
         var me = this;
         var tagName = "tag-" + $(me).text().toLowerCase();

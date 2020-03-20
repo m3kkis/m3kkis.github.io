@@ -1,3 +1,19 @@
+:root{
+    --bg-invert: 0;
+    --bg-opacity: 0.1;
+    --em-col: #ffffff;
+    --proj-text: #ffffff;
+    --a-link:#ffffff;
+}
+
+[data-theme="light"] {
+    --bg-invert: 1;
+    --bg-opacity: 1;
+    --em-col: #000;
+    --proj-text: #000;
+    --a-link:#000;
+}
+
 /* GENERAL */
 body{
     background-color: #101214;
@@ -12,13 +28,21 @@ body{
     width: 100vw;
     z-index: 1;
     pointer-events: none;
-    opacity: 0.1;
+    /*opacity: 0.1;*/
+    opacity: var(--bg-opacity);
     left: 0;
     top: 0;
+    filter: invert(var(--bg-invert));
+    transition: 0.3s;
 }
 
 .page-section{
     height: 100vh;
+}
+
+.main-container{
+    padding-top: 8%;
+    z-index: 2;
 }
 
 .vcenter{
@@ -47,15 +71,79 @@ img.emoji {
     margin-left: 5px;
 }
 
+/* THEME SWITCH */
+
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+em {
+    margin-left: 10px;
+    font-size: 1rem;
+    color: var(--em-col);
+}
+
+.theme-switch {
+    display: inline-block;
+    height: 21px;
+    position: relative;
+    width: 40px;
+}
+
+.theme-switch input {
+    display:none;
+}
+
+.slider {
+    position: absolute;
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    right: 0;
+    top: 0;
+    transition: .3s;
+}
+
+.slider:before {
+    position: absolute;
+    background-color: #fff;
+    bottom: 2px;
+    content: "";
+    height: 17px;
+    left: 3px;
+    transition: .3s;
+    width: 17px;
+}
+
+input:checked + .slider {
+    background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+    transform: translateX(17px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
 /* LINKKS */
 a:link {
-    color: white;
+    color: var(--a-link);
     text-decoration: none;
     transition: 0.3s;
 }
 
 a:visited {
-    color: white;
+    color: var(--a-link);
 }
 
 a:hover {
@@ -64,7 +152,7 @@ a:hover {
 }
 
 a:active {
-    color: #7A7C80;
+    color: var(--a-link);
 }
 
 /* LIST */
@@ -126,6 +214,7 @@ ul {
     font-family: 'Oswald', sans-serif;
     margin-bottom: 0px;
     color: #f1c40f;
+    transition: 0.3s;
     /*-webkit-animation: changecolor 40s infinite alternate;*/
 }
 
@@ -201,6 +290,7 @@ ul {
 .projects-title{
     font-family: 'Yellowtail', cursive;
     font-size: 40px;
+    color: var(--proj-text);
 }
 
 .blinkdot span {
