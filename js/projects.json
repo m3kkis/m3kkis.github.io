@@ -28,10 +28,10 @@
         "progress": "inprogress"
     }, 
     {
-        "name":"Login page (pug)",
+        "name":"Login page",
         "tags":["html","css","javascript"],
-        "description":"A nodejs project to practice building a login page using pug",
-        "link":"https://github.com/m3kkis/login-page-pug",
+        "description":"At work switching to nodejs, this is just a quick refresher/practice at home",
+        "link":"https://github.com/m3kkis/login-page",
         "progress": "incomplete"
     }
 ]
