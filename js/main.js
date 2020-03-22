@@ -6,6 +6,7 @@ $(document).ready(function(){
     $.ajax({
         url: "js/projects.json",
         dataType: "json",
+        async: false,
         success: function(data){
             console.log("json projects load success");
             _PROJ_DATA = data;
@@ -20,6 +21,7 @@ $(document).ready(function(){
     $.ajax({
         url: "js/translation.json",
         dataType: "json",
+        async: false,
         success: function(data){
             console.log("json translation load success");
             _TRANS_DATA = data;
@@ -41,8 +43,10 @@ $(document).ready(function(){
 
     $(".lang").on('click',function(){
         var me = this;
+        $(document.documentElement).attr('lang', $(me).attr("data-lang") );
         appendProjectsList(_PROJ_DATA, $(me).attr("data-lang") );
         translate(_TRANS_DATA, $(me).attr("data-lang"));
+        twemoji.parse(document.body);
     })
 
     $(".filter-tag").on("click",function(){
