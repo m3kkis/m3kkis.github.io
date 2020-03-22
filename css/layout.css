@@ -134,6 +134,11 @@ input:checked + .slider:before {
     border-radius: 50%;
 }
 
+/* LANGUAGE TRANSLOATR*/
+.translation-wrapper{
+    width: 150px;
+}
+
 
 /* LINKKS */
 a:link {
