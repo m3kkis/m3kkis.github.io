@@ -2,35 +2,45 @@
     {
         "name":"Portfolio",
         "tags":["html","css","javascript"],
-        "description":"This is my portfolio on github",
+        "description_en":"This is my portfolio on github",
+        "description_fr":"Mon portfolio sur github",
+        "description_ru":"Моё портфолио на GitHub",
         "link":"https://github.com/m3kkis/m3kkis.github.io",
         "progress": "complete"
     },
     {
         "name":"LED snake game",
         "tags":["python"],
-        "description":"Developed a python game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Python.",
+        "description_en":"Developed a game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Pyhton.",
+        "description_fr":"Développer un jeu en utilisant RaspberryPi 3, 16x16 WS2812B LED, contrôleur Xbox et Python.",
+        "description_ru":"Разработал игру с использованием RaspberryPi 3, 16x16 WS2812B LED, контроллера Xbox и Python.",
         "link":"https://github.com/m3kkis/led-snake-game",
         "progress": "complete"
     },
     {
         "name":"Status shell script",
         "tags":["shell"],
-        "description":"A small script that checks the status of repos in its current location.",
+        "description_en":"A small script that checks the status of repository in its current location.",
+        "description_fr":"Un script qui vérifie l'état des 'repository' dans le dossier actuel",
+        "description_ru":"Небольшой скрипт, который проверяет статус 'repository' в его текущем местоположении.",
         "link":"https://github.com/m3kkis/check-git-status",
         "progress": "complete"
     }, 
     {
         "name":"Code Collab",
         "tags":["html","css","javascript"],
-        "description":"A nodejs project that allows you to ' live ' work/share your code with your team using socketsio",
+        "description_en":"A NodeJS project that allows you to 'live' work/share your code with your team using SocketIO",
+        "description_fr":"Un projet NodeJS qui vous permet de partager voter code en 'temps réel' avec votre équipe en utilisant SocketIO",
+        "description_ru":"Проект с использованием NodeJS, который позволяет в реальном времени работать или делиться своим кодом с вашей командой, используя SocketIO",
         "link":"https://github.com/m3kkis/code-collab",
         "progress": "inprogress"
     }, 
     {
         "name":"Login page",
         "tags":["html","css","javascript"],
-        "description":"At work switching to nodejs, this is just a quick refresher/practice at home",
+        "description_en":"A NodeJS project, this is just a quick refresher/practice at home",
+        "description_fr":"Un projet NodeJS, c'est un 'repository' de pratique",
+        "description_ru":"Проект NodeJS, практикуюсь дома ",
         "link":"https://github.com/m3kkis/login-page",
         "progress": "incomplete"
     }

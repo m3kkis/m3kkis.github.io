@@ -1,0 +1,41 @@
+[
+    {
+        "txtlang":"us",
+        "txtspeak":"I speak",
+        "txtundername":"Developer from Québec, Canada",
+        "txtnamedescription":"Hello! My name is Daniel and I am a Full-Stack developer. Finished my studies at College Lasalle in Montréal, compeleted an internship and currently working full-time since 2016.",
+        "txtcvtooltip":"CV Available upon request",
+        "txttheme":"Need a light?",
+        "txtfilters":"FILTERS :",
+        "txtlgd":"LEGEND :",
+        "txtcomp":"COMPLETE",
+        "txtincomp":"INCOMPLETE",
+        "txtprog":"IN PROGRESS"
+    },
+    {
+        "txtlang":"fr",
+        "txtspeak":"Je parle",
+        "txtundername":"Développeur de Québec, Canada",
+        "txtnamedescription":"Salut! Je m'appelle Daniel et je suis développeur Full-Stack. J'ai terminé mes études au Collège Lasalle à Montréal, j'ai completé un stage et je travaille actuellement à temps plein depuis 2016.",
+        "txtcvtooltip":"Résumé disponible sur demande",
+        "txttheme":"Besoin d'une lumière?",
+        "txtfilters":"FILTRE :",
+        "txtlgd":"LEGENDE :",
+        "txtcomp":"COMPLETS",
+        "txtincomp":"INCOMPLET",
+        "txtprog":"EN PROGRESSION"
+    },
+    {
+        "txtlang":"ru",
+        "txtspeak":"Я говорю",
+        "txtundername":"Программист из Канады, провинция Квебек",
+        "txtnamedescription":"Привет! Меня зовут Данила. Закончил колледж Ласаль в городе Монреаль, затем завершил стажировку и с 2016 года работаю программистом.",
+        "txtcvtooltip":"По поводу резюме написать имейл",
+        "txttheme":"Нужен свет?",
+        "txtfilters":"ФИЛЬТРЫ :",
+        "txtlgd":"ОБОЗНАЧЕНИЯ :",
+        "txtcomp":"ЗАВЕРШЁННЫ",
+        "txtincomp":"НЕЗАВЕРШЁННЫЙ",
+        "txtprog":"В ПРОЦЕССЕ"
+    }
+]
