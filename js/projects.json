@@ -9,6 +9,15 @@
         "progress": "complete"
     },
     {
+        "name":"Task-list Flutter",
+        "tags":["dart"],
+        "description_en":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
+        "description_fr":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
+        "description_ru":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
+        "link":"https://github.com/m3kkis/task-list-flutter",
+        "progress": "complete"
+    },
+    {
         "name":"LED snake game",
         "tags":["python"],
         "description_en":"Developed a game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Pyhton.",

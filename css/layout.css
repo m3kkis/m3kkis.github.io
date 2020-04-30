@@ -135,8 +135,14 @@ input:checked + .slider:before {
 }
 
 /* LANGUAGE TRANSLOATR*/
+#txtspeak{
+    pointer-events: none;
+    cursor: default;
+}
+
 .translation-wrapper{
     width: 150px;
+    cursor: pointer;
 }
 
 
@@ -220,6 +226,7 @@ ul {
     margin-bottom: 0px;
     color: #f1c40f;
     transition: 0.3s;
+    pointer-events: none;
     /*-webkit-animation: changecolor 40s infinite alternate;*/
 }
 
@@ -409,6 +416,11 @@ ul {
 .tag-shell{
     color:#89e051;
     border: solid #89e051 1px;
+}
+
+.tag-dart{
+    color:#00B4AB;
+    border: solid #00B4AB 1px;
 }
 
 /* BOTTOM FOOTER*/
