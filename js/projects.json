@@ -14,7 +14,7 @@
         "description_en":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
         "description_fr":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
         "description_ru":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
-        "link":"https://github.com/m3kkis/task-list-flutter",
+        "link":"https://github.com/m3kkis/task_list_flutter",
         "progress": "complete"
     },
     {
@@ -35,6 +35,15 @@
         "link":"https://github.com/m3kkis/check-git-status",
         "progress": "complete"
     }, 
+    {
+        "name":"Grocery-list Flutter",
+        "tags":["dart"],
+        "description_en":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
+        "description_fr":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
+        "description_ru":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
+        "link":"https://github.com/m3kkis/grocery_list_flutter",
+        "progress": "inprogress"
+    },
     {
         "name":"Code Collab",
         "tags":["html","css","javascript"],
