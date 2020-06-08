@@ -36,6 +36,15 @@
         "progress": "complete"
     }, 
     {
+        "name":"Voice Sandbox",
+        "tags":["html","css","javascript"],
+        "description_en":"Created a GUI for annyang voice commands so that I can test out voice commands.",
+        "description_fr":"Created a GUI for annyang voice commands so that I can test out voice commands.",
+        "description_ru":"Created a GUI for annyang voice commands so that I can test out voice commands.",
+        "link":"https://github.com/m3kkis/VoiceSandbox",
+        "progress": "complete"
+    }, 
+    {
         "name":"Grocery-list Flutter",
         "tags":["dart"],
         "description_en":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
