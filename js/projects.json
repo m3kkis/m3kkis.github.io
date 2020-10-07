@@ -9,10 +9,46 @@
         "progress": "complete"
     },
     {
+        "name":"LED Drawing FRAME (Pi)",
+        "tags":["python", "javascript"],
+        "description_en":"Allows users to do a drawing online on a webpage and then the information gets sent over to my Raspberry Pi and replicates it on my 16x16 LED frame.",
+        "description_fr":"Permet aux utilisateurs de faire un dessin en ligne sur une page Web, puis les informations sont envoyées à mon Raspberry Pi et les répliquent sur mon cadre LED 16x16.",
+        "description_ru":"Позволяет пользователям рисовать онлайн на веб-странице, а затем информация отправляется на мой Raspberry Pi и реплицируется на мою светодиодную раму 16x16.",
+        "link":"https://github.com/m3kkis/LEDDrawing-Pi",
+        "progress": "inprogress"
+    },
+    {
+        "name":"LED Drawing FRAME (WebPage)",
+        "tags":["html","css","javascript"],
+        "description_en":"Allows users to do a drawing online on a webpage and then the information gets sent over to my Raspberry Pi and replicates it on my 16x16 LED frame.",
+        "description_fr":"Permet aux utilisateurs de faire un dessin en ligne sur une page Web, puis les informations sont envoyées à mon Raspberry Pi et les répliquent sur mon cadre LED 16x16.",
+        "description_ru":"Позволяет пользователям рисовать онлайн на веб-странице, а затем информация отправляется на мой Raspberry Pi и реплицируется на мою светодиодную раму 16x16.",
+        "link":"https://github.com/m3kkis/LEDDrawing-Web",
+        "progress": "complete"
+    },
+    {
+        "name":"Bot for Discord (DAN-1000)",
+        "tags":["javascript"],
+        "description_en":"I created this bot inspired by another one that was on my server but I wanted more personal customization and freedom to add more commands that I specifically want or need.",
+        "description_fr":"J'ai créé ce bot inspiré par un autre qui était sur mon serveur mais je voulais plus de personnalisation personnelle et de liberté pour ajouter plus de commandes que je veux ou dont j'ai spécifiquement besoin.",
+        "description_ru":"Я создал этого бота, вдохновленный другим ботом, который был на моем сервере, но мне нужно было больше персональной настройки и свободы добавлять больше команд.",
+        "link":"https://github.com/m3kkis/discordbot-dan1k",
+        "progress": "complete"
+    },
+    {
+        "name":"LED snake game",
+        "tags":["python"],
+        "description_en":"Developed a game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Pyhton.",
+        "description_fr":"Développer un jeu en utilisant RaspberryPi 3, 16x16 WS2812B LED, contrôleur Xbox et Python.",
+        "description_ru":"Разработал игру с использованием RaspberryPi 3, 16x16 WS2812B LED, контроллера Xbox и Python.",
+        "link":"https://github.com/m3kkis/led-snake-game",
+        "progress": "complete"
+    },
+    {
         "name":"Task-list Flutter",
         "tags":["dart"],
-        "description_en":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
-        "description_fr":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
+        "description_en":"Learning Dart&Flutter and built this project using tutorials, this will be used as reference for future projects.",
+        "description_fr":"J'apprend le Dart & Flutter et j'ai construit ce projet à l'aide de tutoriels, cela servira de référence pour les projets futurs.",
         "description_ru":"Learning dart&flutter and built this project using tutorials, this will be used as reference for future projects.",
         "link":"https://github.com/m3kkis/task_list_flutter",
         "progress": "complete"
@@ -39,7 +75,7 @@
         "name":"Voice Sandbox",
         "tags":["html","css","javascript"],
         "description_en":"Created a GUI for annyang voice commands so that I can test out voice commands.",
-        "description_fr":"Created a GUI for annyang voice commands so that I can test out voice commands.",
+        "description_fr":"Création d'une interface graphique pour les commandes vocales Annyang afin que je puisse tester les commandes vocales.",
         "description_ru":"Created a GUI for annyang voice commands so that I can test out voice commands.",
         "link":"https://github.com/m3kkis/VoiceSandbox",
         "progress": "complete"
@@ -48,10 +84,10 @@
         "name":"Grocery-list Flutter",
         "tags":["dart"],
         "description_en":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
-        "description_fr":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
+        "description_fr":"Une application Flutter pour suivre votre liste d'achat d'épicerie. Une autre application d'apprentissage de flutter, structure similaire à mon application de flutter de liste de tâches, mais avec des fonctionnalités supplémentaires ajoutées.",
         "description_ru":"A flutter app to track your grocery to-buy list. Another learning flutter app similar structure to my task list flutter app but with additional personal features added.",
         "link":"https://github.com/m3kkis/grocery_list_flutter",
-        "progress": "inprogress"
+        "progress": "incomplete"
     },
     {
         "name":"Code Collab",
@@ -60,15 +96,6 @@
         "description_fr":"Un projet NodeJS qui vous permet de partager voter code en 'temps réel' avec votre équipe en utilisant SocketIO",
         "description_ru":"Проект с использованием NodeJS, который позволяет в реальном времени работать или делиться своим кодом с вашей командой, используя SocketIO",
         "link":"https://github.com/m3kkis/code-collab",
-        "progress": "inprogress"
-    }, 
-    {
-        "name":"Login page",
-        "tags":["html","css","javascript"],
-        "description_en":"A NodeJS project, this is just a quick refresher/practice at home",
-        "description_fr":"Un projet NodeJS, c'est un 'repository' de pratique",
-        "description_ru":"Проект NodeJS, практикуюсь дома ",
-        "link":"https://github.com/m3kkis/login-page",
         "progress": "incomplete"
     }
 ]
