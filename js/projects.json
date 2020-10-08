@@ -36,15 +36,6 @@
         "progress": "complete"
     },
     {
-        "name":"LED snake game",
-        "tags":["python"],
-        "description_en":"Developed a game using RaspberryPi 3, 16x16 WS2812B LED, Xbox controller and Pyhton.",
-        "description_fr":"Développer un jeu en utilisant RaspberryPi 3, 16x16 WS2812B LED, contrôleur Xbox et Python.",
-        "description_ru":"Разработал игру с использованием RaspberryPi 3, 16x16 WS2812B LED, контроллера Xbox и Python.",
-        "link":"https://github.com/m3kkis/led-snake-game",
-        "progress": "complete"
-    },
-    {
         "name":"Task-list Flutter",
         "tags":["dart"],
         "description_en":"Learning Dart&Flutter and built this project using tutorials, this will be used as reference for future projects.",
