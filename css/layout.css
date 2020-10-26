@@ -423,6 +423,11 @@ ul {
     border: solid #00B4AB 1px;
 }
 
+.tag-c\#{
+    color: #178600;
+    border: solid #178600 1px;
+}
+
 /* BOTTOM FOOTER*/
 
 .bottom-footer{

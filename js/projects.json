@@ -9,13 +9,22 @@
         "progress": "complete"
     },
     {
+        "name":"Discord Auto Messager",
+        "tags":["c#"],
+        "description_en":"Created an auto messager app using C# with UWP. To use with my Discord Bot.",
+        "description_fr":"Cré un application de messagerie automatique en utilisant C# avec UWP. Pour utiliser avec mon Discord Bot.",
+        "description_ru":"Создал приложение для автоматического обмена сообщениями с использованием C# и UWP. Для использования с моим ботом Discord.",
+        "link":"https://github.com/m3kkis/DS_AutoMessager",
+        "progress": "inprogress"
+    },
+    {
         "name":"LED Drawing FRAME (Pi)",
         "tags":["python", "javascript"],
         "description_en":"Allows users to do a drawing online on a webpage and then the information gets sent over to my Raspberry Pi and replicates it on my 16x16 LED frame.",
         "description_fr":"Permet aux utilisateurs de faire un dessin en ligne sur une page Web, puis les informations sont envoyées à mon Raspberry Pi et les répliquent sur mon cadre LED 16x16.",
         "description_ru":"Позволяет пользователям рисовать онлайн на веб-странице, а затем информация отправляется на мой Raspberry Pi и реплицируется на мою светодиодную раму 16x16.",
         "link":"https://github.com/m3kkis/LEDDrawing-Pi",
-        "progress": "inprogress"
+        "progress": "complete"
     },
     {
         "name":"LED Drawing FRAME (WebPage)",
